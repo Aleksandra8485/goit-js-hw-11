@@ -10,13 +10,16 @@
   <body>
     <form class="search-form" id="search-form">
       <input
+        id="searchQuery"
         type="text"
         name="searchQuery"
         autocomplete="off"
         placeholder="Search images..."
       />
-      <button type="submit">Search</button>
+      <button type="submit" class="search-button">Search</button>
     </form>
+    <div class="gallery" id="result-container"></div>
+    <button type="button" id="load-more" class="load-more">Load more</button>
 
     <!-- ❗️❗️❗️ Add partials like so for every page -->
   </body>
